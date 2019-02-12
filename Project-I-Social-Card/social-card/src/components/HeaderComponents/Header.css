@@ -1,1 +1,33 @@
 /* All styles for your header Components live here */
+.headerContainer {
+  display: flex;
+}
+
+.thumb {
+  width: 6%;
+  height: 60px;
+  padding: 5px;
+}
+
+.headerContentContainer {
+  display: flex;
+  flex-direction: column;
+}
+.headerTitle {
+  display: flex;
+  display: row;
+  padding: 5px;
+}
+
+.headerTitle h2 {
+  margin-right: 5px;
+}
+
+.headerTitle p {
+  color: gray;
+}
+
+.headerContent {
+  margin: 5px;
+  font-size: .9rem;
+}
